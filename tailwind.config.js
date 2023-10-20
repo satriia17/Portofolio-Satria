@@ -11,6 +11,5 @@ export default {
       signature : ["Grey Qo"],
     },
   },
-  plugins: [ require('flowbite/plugin')],
 }
 

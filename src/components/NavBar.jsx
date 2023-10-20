@@ -28,8 +28,8 @@ const links = [
     ];
 
     return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
-        <div className="">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-gray-50 bg-gray-900 fixed z-[9999999]">
+        <div className="select-none">
             <h1 className="text-4xl font-signature ml-2">ARS</h1>
         </div>
 
@@ -37,7 +37,7 @@ const links = [
         {links.map(({ id, link }) => (
             <li
                 key={id}
-                className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
+                className="px-4 cursor-pointer capitalize font-medium text-gray-50 hover:scale-105 duration-200"
             >
             <Link to={link} smooth duration={500}>{link}</Link>
             </li>

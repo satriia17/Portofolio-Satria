@@ -47,14 +47,14 @@ const Stack = () => {
     ];
 
   return (
-    <div id='stack' className='sm:h-screen h-full w-full bg-gradient-to-b from-black to-gray-800'>
+    <div id='stack' className='sm:h-screen h-full w-full bg-gradient-to-b from-gray-900 to-gray-800'>
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center px-4 h-full text-white md:flex-col">
-        <div className='pb-2 text-center'>
-          <p className='text-4xl text-teal-600 font-bold inline border-b-4 border-teal-300'>
+        <div className='pb-2 text-center select-none'>
+          <p className='text-4xl text-gray-50 font-bold inline border-b-4 border-gray-200'>
             Tech Stack
           </p>
         </div>
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 mb-10 sm:mb-0">
+        <div data-aos="flip-up" data-aos-duration="700" className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 mb-10 sm:mb-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}

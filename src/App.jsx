@@ -6,6 +6,7 @@ import Stack from "./components/Stack";
 import Certificate from "./components/Certificate";
 import Contact from "./components/Contact";
 
+
 function App() {
   return (
     <>
