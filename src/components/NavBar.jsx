@@ -52,9 +52,9 @@ const links = [
         </div>
 
         {nav && (
-            <ul className="rounded-lg absolute top-full right-4 w-full max-w-[250px] bg-gradient-to-b from-black to-gray-800 text-gray-500">
+            <ul className="rounded-md absolute top-full right-4 w-full max-w-[250px] bg-gradient-to-b bg-gray-800">
             {links.map(({ id, link }) => (
-                <li key={id} className="cursor-pointer capitalize py-2 mx-8">
+                <li key={id} className="cursor-pointer capitalize py-3 mx-7">
                 <Link
                 onClick={() => setNav(!nav)}
                 to={link}

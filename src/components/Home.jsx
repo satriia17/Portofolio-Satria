@@ -42,7 +42,7 @@ const Home = () => {
             Memiliki ketertarikan dalam membuat website dan terus mengasah
             keterampilan dan skill hingga akhirnya mendapatkan sertifikat
             sebagai <span className="font-bold">Junior Web Developer</span> oleh
-            Badan Sertifikasi Nasional (BNSP)
+            Badan Nasional Sertifikasi Profesi(BNSP)
           </p>
           <div className="">
             <button className="text-3xl text-gray-400">

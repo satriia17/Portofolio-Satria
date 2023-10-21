@@ -40,7 +40,7 @@ const Certificate = () => {
 
         <div className="flex flex-wrap gap-8 px-12 sm:px-0 justify-center">
           {certif.map(({ id, src }) => (
-            <div data-aos="zoom-in" data-aos-duration="600" key={id} className="shadow-md w-96 shadow-gray-600 rounded-lg">
+            <div data-aos="zoom-in" data-aos-duration="600" data-aos-once="true" key={id} className="shadow-md w-96 shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt=""
