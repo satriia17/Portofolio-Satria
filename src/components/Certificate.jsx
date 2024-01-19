@@ -3,24 +3,29 @@ import p2m from "../assets/img/Sertifikat/CP2M.png";
 import ppu from "../assets/img/Sertifikat/CPPU.png";
 import prakerja from "../assets/img/Sertifikat/CPrakerja.png";
 import vsga from "../assets/img/Sertifikat/CVSGA.png";
+import toefl from "../assets/img/Sertifikat/CTOEFL.png";
 
 
 const Certificate = () => {
   const certif = [
     {
       id: 1,
-      src: prakerja,
+      src: toefl,
     },
     {
       id: 2,
-      src: vsga,
+      src: prakerja,
     },
     {
       id: 3,
-      src: ppu,
+      src: vsga,
     },
     {
       id: 4,
+      src: ppu,
+    },
+    {
+      id: 5,
       src: p2m,
     },
   ];

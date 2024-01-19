@@ -8,6 +8,7 @@ import mypic from "../assets/img/myPicture.png";
 import React from "react";
 import resume from "../assets/Resume.pdf";
 import Typewriter from "typewriter-effect";
+import BNSP from "../assets/BNSP.pdf";
 
 const Home = () => {
   return (
@@ -38,11 +39,14 @@ const Home = () => {
               }}
             />
           </h3>
-          <p className="text-md  py-2 max-w-md text-gray-200">
+          <p className="text-md py-2 max-w-md text-gray-200">
             Memiliki ketertarikan dalam membuat website dan terus mengasah
             keterampilan dan skill hingga akhirnya mendapatkan sertifikat
-            sebagai <span className="font-bold">Junior Web Developer</span> oleh
-            Badan Nasional Sertifikasi Profesi(BNSP)
+            sebagai <span className="font-bold"><a href={BNSP}
+              download="BNSP-Andhika"
+              target="_blank"
+              rel="noreferrer">Junior Web Developer</a></span> dari
+            Badan Nasional Sertifikasi Profesi (BNSP)
           </p>
           <div className="">
             <button className="text-3xl text-gray-400">
