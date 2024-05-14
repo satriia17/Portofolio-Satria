@@ -4,28 +4,33 @@ import ppu from "../assets/img/Sertifikat/CPPU.png";
 import prakerja from "../assets/img/Sertifikat/CPrakerja.png";
 import vsga from "../assets/img/Sertifikat/CVSGA.png";
 import toefl from "../assets/img/Sertifikat/CTOEFL.png";
+import revou from "../assets/img/Sertifikat/CREVOU.png";
 
 
 const Certificate = () => {
   const certif = [
     {
       id: 1,
-      src: toefl,
+      src: revou,
     },
     {
       id: 2,
-      src: prakerja,
+      src: toefl,
     },
     {
       id: 3,
-      src: vsga,
+      src: prakerja,
     },
     {
       id: 4,
-      src: ppu,
+      src: vsga,
     },
     {
       id: 5,
+      src: ppu,
+    },
+    {
+      id: 6,
       src: p2m,
     },
   ];
